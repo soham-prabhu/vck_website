@@ -4,6 +4,7 @@ import './HomePage.css';
 import Img1 from  '../assets/vck.png';
 import Img2 from '../assets/vck.jpg';
 import Img3 from '../assets/vckstd.jpg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -19,9 +20,9 @@ const Home = () => {
           <div className="hero-overlay-text">
             <h1>Welcome to Vivekanand College!</h1>
             <p>Your journey to excellence starts here.</p>
-            <a className="btn hero-btn" href="/admissions" data-discover="true">
+            <link className="btn hero-btn" href="/admissions" data-discover="true">
               Apply Now!
-            </a>
+            </link>
           </div>
         </div>
 
@@ -59,9 +60,9 @@ const Home = () => {
 
         <div className="call-to-action">
           <p>Ready to explore our courses?</p>
-          <a className="btn" href="/courses" data-discover="true">
+          <link className="btn" href="/courses" data-discover="true">
             Explore Courses
-          </a>
+          </link>
         </div>
       </div>
     </div>
