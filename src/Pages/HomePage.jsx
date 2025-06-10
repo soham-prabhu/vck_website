@@ -1,16 +1,18 @@
 // src/pages/Home.jsx
 import React from 'react';
 import './HomePage.css';
+import Img1 from  '../assets/vck.png';
 
 const Home = () => {
   return (
     <div className="content">
       <div className="page-container">
         <div className="hero-section">
+         
           <img
             alt="Vivekanand College Campus"
             className="hero-banner-image"
-            src="src\assets\vck.png"
+            src={Img1}
           />
           <div className="hero-overlay-text">
             <h1>Welcome to Vivekanand College!</h1>
