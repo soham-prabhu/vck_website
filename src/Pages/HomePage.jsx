@@ -20,9 +20,9 @@ const Home = () => {
           <div className="hero-overlay-text">
             <h1>Welcome to Vivekanand College!</h1>
             <p>Your journey to excellence starts here.</p>
-            <link className="btn hero-btn" href="/admissions" data-discover="true">
+            <Link className="btn hero-btn" to="/admissions" data-discover="true">
               Apply Now!
-            </link>
+            </Link>
           </div>
         </div>
 
@@ -60,9 +60,9 @@ const Home = () => {
 
         <div className="call-to-action">
           <p>Ready to explore our courses?</p>
-          <link className="btn" href="/courses" data-discover="true">
+          <Link className="btn" to="/courses" data-discover="true">
             Explore Courses
-          </link>
+          </Link>
         </div>
       </div>
     </div>
